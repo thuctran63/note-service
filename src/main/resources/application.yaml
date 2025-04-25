@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: note-service
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@cluster0.asbwstm.mongodb.net/
+      database: Note
+      auto-index-creation: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger
+  api-docs:
+    path: /api-docs
